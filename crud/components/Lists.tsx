@@ -14,7 +14,7 @@ const Lists = () => {
       </div>
       <div className='flex gap-2'>
         <RemBtn/>
-        <Link className='text-[#004E98]' href={'/ediList/12345'}>
+        <Link className='text-[#004E98]' href={'/ediList/1234'}>
           <BsPencilSquare size={24}/>
         </Link>
         </div>
