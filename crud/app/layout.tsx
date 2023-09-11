@@ -12,7 +12,11 @@ export const metadata: Metadata = {
   description: 'This website is a simple example of a CRUD',
 }
 
-export default function RootLayout({ children }) {
+export default function RootLayout({
+  children,
+}: {
+  children: React.ReactNode
+}) {
   return (
     <html lang="en">
       <body className={inter.className}>
