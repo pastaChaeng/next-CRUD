@@ -11,7 +11,7 @@ export default function EditListForm(){
                 type="text"
                 placeholder="Description"
             />
-            <button className='bg-green-600 text-[#F5F5F5] text-base font-semibold py-2 px-6 w-fit rounded-md'>Update</button>
+            <button className='bg-[#007bff] text-[#F5F5F5] text-base font-semibold py-2 px-6 w-fit rounded-md'>Update</button>
         </form>
     )
 }
